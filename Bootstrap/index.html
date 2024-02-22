@@ -20,12 +20,13 @@
         .container-fluid {
             border: 2px solid;
             display: flex;
-            width: 100%;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+
         }
 
-        .container-fluid>div {
-            
-        }
+        .container-fluid>div {}
 
         .container {
             width: 40%;
@@ -33,7 +34,7 @@
 
         }
 
-     
+
 
         .container img {
             max-height: 10vh;
@@ -44,11 +45,57 @@
             width: 100%;
             border: 2px solid green;
         }
-        
+
 
         .container-sm img {
             max-height: 35vh;
             object-fit: cover;
+        }
+
+        .newsletter {
+            position: relative;
+        }
+
+        .newsletter::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 100%;
+            height: 1px;
+            background-color: rgb(236, 228, 228);
+        }
+
+        .card {
+            position: relative;
+        }
+
+        .card::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 100%;
+            height: 1px;
+            background-color: rgb(236, 228, 228);
+        }
+
+
+        .hexagon-button {
+            clip-path:
+                polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
+            /* var(--border-width) var(--edge-size),var(--edge-size) .25rem, calc(100% - .25em) .25em,calc(100% - .25em) calc(100% - .25em - var (--edge-size)), calc(100% - .25em - var(--edge-size)) calc(100% - .25em), .25em calc(100% - .25em),); */
+
+            width: 160px;
+            height: 50px;
+            background-color: white;
+
+        }
+
+        .hexagon-button:hover {
+            background-color: #000000; /* Change the background color on hover */
+  color: white; /* Change the text color on hover */
+  transition: background-color 0.3s ease;
         }
     </style>
 </head>
@@ -56,9 +103,158 @@
 <body>
     <main class="container-fluid">
 
-        
+
         <div class="container-sm">
+
+
+
+
+
             <h3>THE LATEST</h3>
+
+
+            <div class="card mb-3" style="max-width: 740px; max-height: auto;">
+                <div class="row g-0">
+                    <div class="col-md-4" style="max-width: 100%; height: auto;">
+                        <img src="https://cdn.marvel.com/content/1x/edgesv2024001_card.jpg"
+                            alt="Your Image Alt Text Here" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title">COMICS</h6>
+                            <h5 class="card-text"><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 740px; max-height: auto;">
+                <div class="row g-0">
+                    <div class="col-md-4" style="max-width: 100%; height: auto;">
+                        <img src="https://cdn.marvel.com/content/1x/deadpool_1_stegman_variant_card.jpg"
+                            alt="Your Image Alt Text Here" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title">COMICS</h6>
+                            <h5 class="card-text"><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 740px; max-height: auto;">
+                <div class="row g-0">
+                    <div class="col-md-4" style="max-width: 100%; height: auto;">
+                        <img src="https://cdn.marvel.com/content/1x/edgesv2024001_card.jpg"
+                            alt="Your Image Alt Text Here" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title">COMICS</h6>
+                            <h5 class="card-text"><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 740px; max-height: auto;">
+                <div class="row g-0">
+                    <div class="col-md-4" style="max-width: 100%; height: auto;">
+                        <img src="https://cdn.marvel.com/content/1x/edgesv2024001_card.jpg"
+                            alt="Your Image Alt Text Here" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title">COMICS</h6>
+                            <h5 class="card-text"><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 740px; max-height: auto;">
+                <div class="row g-0">
+                    <div class="col-md-4" style="max-width: 100%; height: auto;">
+                        <img src="https://cdn.marvel.com/content/1x/edgesv2024001_card.jpg"
+                            alt="Your Image Alt Text Here" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title">COMICS</h6>
+                            <h5 class="card-text"><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 740px; max-height: auto;">
+                <div class="row g-0">
+                    <div class="col-md-4" style="max-width: 100%; height: auto;">
+                        <img src="https://cdn.marvel.com/content/1x/edgesv2024001_card.jpg"
+                            alt="Your Image Alt Text Here" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title">COMICS</h6>
+                            <h5 class="card-text"><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 740px; max-height: auto;">
+                <div class="row g-0">
+                    <div class="col-md-4" style="max-width: 100%; height: auto;">
+                        <img src="https://cdn.marvel.com/content/1x/edgesv2024001_card.jpg"
+                            alt="Your Image Alt Text Here" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title">COMICS</h6>
+                            <h5 class="card-text"><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 740px; max-height: auto;">
+                <div class="row g-0">
+                    <div class="col-md-4" style="max-width: 100%; height: auto;">
+                        <img src="https://cdn.marvel.com/content/1x/edgesv2024001_card.jpg"
+                            alt="Your Image Alt Text Here" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title">COMICS</h6>
+                            <h5 class="card-text"><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 740px; max-height: auto;">
+                <div class="row g-0">
+                    <div class="col-md-4" style="max-width: 100%; height: auto;">
+                        <img src="https://cdn.marvel.com/content/1x/edgesv2024001_card.jpg"
+                            alt="Your Image Alt Text Here" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title">COMICS</h6>
+                            <h5 class="card-text"><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
             <div>
                 <img src="https://cdn.marvel.com/content/1x/edgesv2024001_card.jpg" alt="">
                 <h6><b>COMICS</b></h6>
@@ -100,58 +296,110 @@
                 <h6><b>COMICS</b></h6>
                 <h5><a href="">February 21's New Marvel Comics: The Full List</a></h5>
             </div>
+            <button class="hexagon-button "> Load More</button>
         </div>
+
+
 
         <div class="container">
 
-            <div>
+            <div class="newsletter">
                 <h3>THE HYPE BOX</h3>
                 <P>Can't-miss news and updates from across the Marvel Universe!</P>
             </div>
 
             <div>
-                <div>
-                    <img src="https://cdn.marvel.com/content/1x/16x9_1_1.jpg" alt="">
-                    <div>
-                        <h6><b>MOVIES</b></h6>
-                        <h6><a href="">First 'Deadpool & Wolverien' Teaser Debuts During The Big Game</a></h6>
+                <div class="card mb-3" style="max-width: 300px; max-height: auto; border: 0px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://cdn.marvel.com/content/1x/16x9_1_1.jpg" alt=""
+                                style="width: 100%; height: auto;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h6 class="card-title" style="color: rgb(98, 95, 95);">MOVIES</h6>
+                                <h6 class="card-text"><a href="" style="color: black; text-decoration: none;">First
+                                        'Deadpool & Wolverien' Teaser Debuts During The Big Game</a></h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img src="https://cdn.marvel.com/content/1x/night_thrasher_1_cover_card.jpg" alt="">
-                    <div>
-                        <h6><b>COMICS</b></h6>
-                        <h6><a href="">February 14's New Marvel Comics: The Full List</a></h6>
+                <div class="card mb-3" style="max-width: 300px; max-height: auto; border: 0px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://cdn.marvel.com/content/1x/night_thrasher_1_cover_card.jpg" alt=""
+                                style="width: 100%; height: auto;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h6 class="card-title" style="color: rgb(98, 95, 95);">COMICS</h6>
+                                <h6 class="card-text"><a href="" style="color: black; text-decoration: none;">February
+                                        14's New Marvel Comics: The Full List</a></h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img class="built__background built__background--single card-thumb-frame__thumbnail"
-                        src="https://cdn.marvel.com/content/1x/16x9xmen.jpeg" alt="">
-                    <div>
-                        <h6>TV SHOWS</h6>
-                        <h6><a href="">Marvel Animation Releases first Trailer for 'X-Men'97'</a></h6>
+                <div class="card mb-3" style="max-width: 300px; max-height: auto; border: 0px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://cdn.marvel.com/content/1x/16x9xmen.jpeg" alt=""
+                                style="width: 100%; height: auto;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h6 class="card-title" style="color: rgb(98, 95, 95);">TV SHOWS</h6>
+                                <h6 class="card-text"><a href="" style="color: black; text-decoration: none;">Marvel
+                                        Animation Releases first Trailer for 'X-Men'97'</a></h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img src="https://cdn.marvel.com/content/1x/lunar-new-year-marvel-dragons-article-card.jpg" alt="">
-                    <div>
-                        <h6>COMICS</h6>
-                        <h6><a href="">Meet the Dragons of the Marvel Universe</a></h6>
+                <div class="card mb-3" style="max-width: 300px; max-height: auto; border: 0px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://cdn.marvel.com/content/1x/lunar-new-year-marvel-dragons-article-card.jpg"
+                                alt="" style="width: 100%; height: auto;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h6 class="card-title" style="color: rgb(98, 95, 95);">COMICS</h6>
+                                <h6 class="card-text"><a href="" style="color: black; text-decoration: none;">Meet the
+                                        Dragons of the Marvel Universe</a></h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img src="https://cdn.marvel.com/content/1x/mcu_timeline.png" alt="">
-                    <div>
-                        <h6>MOVIES</h6>
-                    <h6><a href="">New MCU Timelines Arrive on Disney+</a></h6>
+                <div class="card mb-3" style="max-width: 300px; max-height: auto; border: 0px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://cdn.marvel.com/content/1x/mcu_timeline.png" alt=""
+                                style="width: 100%; height: auto;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h6 class="card-title" style="color: rgb(98, 95, 95);">MOVIES</h6>
+                                <h6 class="card-text"><a href="" style="color: black; text-decoration: none;">New MCU
+                                        Timelines Arrive on Disney+</a></h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
 
             </div>
 
         </div>
 
     </main>
+
+
 </body>
 
 </html>
