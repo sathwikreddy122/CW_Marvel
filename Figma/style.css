@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-image: url(Figma-header.png);
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 60px;
+}
+header nav .logo-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .logo-links .logo {
+  position: relative;
+  left: -2%;
+}
+header nav .logo-links #dot {
+  position: absolute;
+  left: 37.5%;
+  top: -20%;
+}
+header nav .logo-links span {
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+header nav .logo-links a {
+  text-decoration: none;
+  margin: 29px;
+  color: rgb(255, 255, 255);
+  font-size: 14.3px;
+}
+header nav .logo-links #home {
+  color: rgb(235, 102, 43);
+}
+header nav .sign-up {
+  font-size: 14px;
+}
+header nav .sign-up a {
+  color: rgb(255, 255, 255);
+  margin: 30px;
+  text-decoration: none;
+}
+header nav .sign-up button {
+  border: 1px solid rgb(255, 255, 255);
+  background: none;
+  margin: 22px 60px 22px 0;
+  padding: 12px 22px;
+  border-radius: 100px;
+  color: rgb(255, 255, 255);
+}
+header .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 150px 305px 50px 305px;
+}
+header .center .content .first-p {
+  font-size: 55px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+header .center .content .second-p {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  padding: 30px;
+  font-weight: 400;
+}
+header .center .content .third-p {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  padding: 70px 0 30px 0;
+}
+header .center .content .search {
+  position: relative;
+}
+header .center .content .search input {
+  padding: 15px 180px 15px 40px;
+  border-radius: 100px;
+  border: none;
+  background: rgb(255, 255, 255);
+}
+header .center .content .search i {
+  position: absolute;
+  top: -14%;
+  padding: 20px 18px;
+  transform: translateY(-50%, -50%);
+  font-size: 20px;
+  color: rgb(5, 7, 60);
+}
+header .center .content .search button {
+  position: absolute;
+  left: 565px;
+  top: 5px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(235, 102, 43);
+}
+header .center .content #btn {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgb(255, 255, 255);
+  padding: 16px 29px 16px 66px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 100px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+main .best-of h3 {
+  padding: 120px 0 10px 100px;
+  font-weight: 700;
+  font-size: 29px;
+}
+main .best-of h3 span {
+  color: rgb(198, 198, 210);
+}
+main .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+main .box .container {
+  height: 398px;
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgb(231, 230, 230);
+  margin: 10px;
+}
+main .box .container .image-1 {
+  background-image: url(bestof-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 238px;
+}
+main .box .container .image-2 {
+  background-image: url(bestof-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 238px;
+}
+main .box .container .image-3 {
+  background-image: url(bestof-3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 238px;
+}
+main .box .container .image-4 {
+  background-image: url(bestof-4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 238px;
+}
+main .box .container .white-circle {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  position: absolute;
+  left: 88%;
+  top: 56%;
+}
+main .box .container .text .city {
+  padding: 10px 0 10px 40px;
+  color: rgb(113, 113, 113);
+  font-size: 11px;
+}
+main .box .container .text hr {
+  width: 85%;
+  margin: 5px 15px;
+}
+main .box .container .text .info {
+  padding: 7px 15px;
+  font-size: 15px;
+}
+main .box .container .text .money {
+  text-align: center;
+  font-size: 12px;
+}
+main .box .container .moneydays {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+main .box .container .moneydays span {
+  font-weight: 500;
+}
+main .three-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 180px 0 0 0;
+}
+main .three-div .box-1 {
+  width: 310.98px;
+  height: 307.13px;
+  background-image: url(second-section-img-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 40px;
+}
+main .three-div .box-1 .para-1 {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+main .three-div .box-1 .para-2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin: 10px 0 0 0;
+}
+main .three-div .box-1 button {
+  margin-top: 170px;
+  border: none;
+  padding: 17px 60px 17px 30px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-weight: 500;
+}
+main .three-div .box-2 {
+  width: 310.98px;
+  height: 307.13px;
+  background-image: url(second-section-img-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 40px;
+}
+main .three-div .box-2 .para-1 {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+main .three-div .box-2 .para-2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin: 10px 0 0 0;
+}
+main .three-div .box-2 button {
+  margin-top: 170px;
+  border: none;
+  padding: 17px 60px 17px 30px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-weight: 500;
+}
+main .three-div .box-3 {
+  width: 310.98px;
+  height: 307.13px;
+  background-image: url(second-section-img-3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 40px;
+}
+main .three-div .box-3 .para-1 {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+main .three-div .box-3 .para-2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin: 10px 0 0 0;
+}
+main .three-div .box-3 button {
+  margin-top: 170px;
+  border: none;
+  padding: 17px 60px 17px 30px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-weight: 500;
+}
+main .container-2 .content {
+  width: 400px;
+  height: 280px;
+}
+main .container-2 .food-menu {
+  height: 210px;
+  width: 190px;
+  background-color: aqua;
+}/*# sourceMappingURL=style.css.map */
