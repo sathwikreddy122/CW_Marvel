@@ -67,5 +67,6 @@ cw_marvel/
   
 ## Technology Stack
 Frontend: HTML, CSS , Sass
+
 Thank you for taking the time to look at our project! Hope you liked it!
 ## Happy Watching!
