@@ -1,0 +1,287 @@
+@charset "UTF-8";
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: white;
+}
+
+.poster {
+  background-image: url(/CW_Marvel/Figma/Section\ →\ image.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500.25px;
+}
+.poster h2 {
+  color: white;
+  text-align: center;
+  width: 670.93px;
+  height: 105px;
+  font-family: Inter;
+  font-size: 69px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.poster p {
+  color: white;
+  width: 395.05px;
+  height: 48.12px;
+  top: 119px;
+  left: 152.93px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0%;
+}
+.poster img {
+  width: 60px;
+  height: 60px;
+  top: 201.25px;
+  left: 320.35px;
+  margin-top: 0%;
+}
+
+.cards {
+  width: 100%;
+  background: rgba(235, 102, 43, 0.0509803922);
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.cards > h2 {
+  margin-left: 10%;
+  font-weight: 600px;
+  font-size: 30px;
+}
+.cards .section {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.cards .section .card {
+  width: 80%;
+  padding-left: 7%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.cards .section .card .intro {
+  display: flex;
+  align-items: center;
+}
+.cards .section .card .intro p {
+  line-height: 5px;
+  margin-left: 10px;
+}
+.cards .foot {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  line-height: 30%;
+}
+
+.travel {
+  width: 80%;
+  margin: auto;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+.travel h2 {
+  margin-bottom: 2%;
+}
+.travel .travels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 100%;
+  gap: 2%;
+  box-sizing: border-box;
+}
+.travel .travels img {
+  width: 100%;
+}
+.travel .travels a {
+  text-decoration: none;
+  color: black;
+}
+.travel .travel-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.sub {
+  background-image: url(/CW_Marvel/Figma/card/Section\ →\ image\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+  padding: 6% 9%;
+}
+.sub > div {
+  margin-left: 10%;
+  width: 30%;
+  color: white;
+}
+.sub .search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  width: 85%;
+  background-color: #5D57CC;
+  /* Style for the search button */
+  /* Style for button on hover */
+}
+.sub .search-container .search-input {
+  padding: 8px;
+  border: none;
+  border-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #5D57CC;
+  color: white;
+}
+.sub .search-container .search-input::placeholder {
+  color: white;
+}
+.sub .search-container .search-button {
+  padding: 8px 16px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.sub .search-container .search-button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  border: 2px solid #05073C;
+  background-color: #05073C;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+.footer .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 55%;
+  margin: auto;
+  color: white;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+.footer .footer-links {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 2fr;
+  grid-template-rows: 100px 100px;
+  gap: 50px;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 14%;
+}
+.footer .child {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  color: white;
+}
+.footer .child h6 {
+  font-size: large;
+}
+.footer .child a {
+  text-decoration: none;
+  color: white;
+}
+.footer .child .search-container {
+  display: flex;
+  flex-direction: row;
+}
+.footer .child .search-container .search-input {
+  padding: 8px;
+  border-radius: 6px;
+}
+.footer .child .search-container .search-button {
+  padding: 8px;
+  background-color: white;
+  border-radius: 6px;
+}
+.footer .copyright {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.footer .copyright img {
+  width: 30px;
+  height: 20px;
+}
+
+.underline-div {
+  border-bottom: 1px solid rgb(233, 233, 233);
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .poster h2 {
+    font-size: 40px;
+    width: 100%;
+  }
+  .poster p {
+    width: 100%;
+  }
+  .poster img {
+    width: 30px;
+    height: 30px;
+  }
+  .cards > h2 {
+    font-size: 20px;
+    margin-left: 0;
+  }
+  .cards .section {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .cards .section .card {
+    width: 100%;
+  }
+  .sub > div {
+    width: 100%;
+  }
+  .sub .search-container {
+    width: 100%;
+  }
+  .footer .info {
+    width: 100%;
+  }
+  .footer .footer-links {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
