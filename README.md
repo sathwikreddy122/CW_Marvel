@@ -69,4 +69,4 @@ cw_marvel/
 Frontend: HTML, CSS , Sass
 
 Thank you for taking the time to look at our project! Hope you liked it!
-## Happy Watching!
+### Happy Watching!
