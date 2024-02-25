@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+      *{
+        font-family: "Roboto Condensed", sans-serif;
+      }
         .carousel-img {
             height: 550px;
             object-fit: cover;
@@ -71,6 +74,95 @@
             margin: 5px 10px;
             font-size: 25px;
         }
+        .container{
+          position: relative;
+        }
+        .scrolling-wrapper {
+          overflow-x: auto;
+          white-space: nowrap;
+          margin: 50px 55px;
+          padding: 20px;
+          width: 1200px;
+          position: absolute;
+          top: 80%;
+          background-color: rgba(255, 255, 255, 1);
+          color: red;
+        }
+        .scrolling-wrapper .card {
+          display: inline-block;
+          justify-content: center;
+          align-items: center;
+          width: 200px;
+          margin-right: 10px;
+          border: none;
+        }
+        .scrolling-wrapper .card:hover{
+          transform: translateY(-5%);
+          color: red;
+          cursor: pointer;
+        }
+        .scrolling-wrapper::-webkit-scrollbar { 
+          width: 5px;
+          height: 4px;
+        }
+        .scrolling-wrapper::-webkit-scrollbar-thumb {
+          background-color: red; 
+        }
+        .scrolling-wrapper::-webkit-scrollbar-button {
+          display: none;
+        }
+        .container .upper-container{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 50px;
+          background-color: #202020;
+          color: rgba(255, 255, 255, 1);
+          padding-left: 90px;
+        }
+        .container .upper-container .image img{
+          width: 650px;
+          height: 500px;
+          object-fit: cover;
+          margin-left: 10px;
+        }
+        .container-2 .upper-container{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 550px;
+          background-color: #202020;
+          color: rgba(255, 255, 255, 1);
+          padding-left: 90px;
+        }
+        .container-2 .upper-container .image img{
+          width: 650px;
+          height: 500px;
+          object-fit: cover;
+          margin-left: 10px;
+        }
+        .container-2 .scrolling-wrapper {
+          overflow-x: auto;
+          white-space: nowrap;
+          margin: 50px 105px;
+          padding: 20px;
+          width: 1200px;
+          position: absolute;
+          top: 280%;
+          background-color: rgba(255, 255, 255, 1);
+        }
+        .container-2 .scrolling-wrapper .card {
+          display: inline-block;
+          justify-content: center;
+          align-items: center;
+          width: 200px;
+          margin-right: 10px;
+          border: none;
+        }
+        .container-2 .scrolling-wrapper .card:hover{
+          transform: translateY(-5%);
+          color: red;
+        }
     </style>
   </head>
   <body>
@@ -88,7 +180,7 @@
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="1800">
-                <img src="https://cdn.marvel.com/content/1x/20240130-blacksuit-sm2explained-articlecard-1560x876_00.jpg" class="d-block w-100 carousel-img" alt="SpiderMan">
+                <img src="https://cdn.marvel.com/content/1x/msm2_reveal_heroes_4k_legal_2024.jpg" class="d-block w-100 carousel-img" alt="SpiderMan">
                 <div class="text">
                     <h1>WHAT IS BLACK SUIT (PETER PARKER)?</h1>
                     <p>Read on for everything you need to know about Peter Parker's Black Suit playing 'Marvel's Spider-Man 2!'</p>
@@ -133,7 +225,7 @@
             <a href="">Deadpool And Wolverine Teaser</a>
             <a href="">Marvel's Spider Man-2 Explained</a>
             <a href="">This Week's New Comics</a>
-            <a href="">Year Od The Dragons</a>
+            <a href="">Year Of The Dragons</a>
             <a href="">Echo Now Streaming</a>
         </div>
         <div class="icons">
@@ -141,6 +233,171 @@
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-instagram"></i>
         </div>
+    </div>
+
+    <div class="container">
+      <div class="upper-container">
+        <div class="content">
+          <img src="mulogo_lob_log_eye_01_1.png" alt="">
+          <p>Available Now</p>
+          <h1>NEW ON MARVEL UNLIMITED</h1>
+          <p>Read these plus 30,000+ digital comics for $9.99 a month!</p>
+          <button>Get Marvel Unlimited</button>
+        </div>
+        <div class="image">
+          <img src="upper-container-img.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="scrolling-wrapper">
+            <div class="card">
+              <img src="slider-1.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Carnage  #1</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-2.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Superior Spider-Man  #1</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-3.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">DEADPOOL #1</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-4.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Immortal Thor  #4</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-5.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Dark X-Men  #4</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-6.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Children of the Vault  #4</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-7.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Astonishing Iceman  #4</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-8.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Daredevil  #3</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-9.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Blade  #5</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-10.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">Ghost Rider #20</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container-2">
+      <div class="upper-container">
+        <div class="content">
+          <p>ON SALE 2/21</p>
+          <h1>NEW COMICS THIS WEEK</h1>
+          <p>Check out the newest Marvel comics coming out this week!</p>
+          <button>Release Calender</button>
+        </div>
+        <div class="image">
+          <img src="upper-container-img-2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="scrolling-wrapper"
+          data-bs-spy="scroll" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+            <div class="card">
+              <img src="slider-1.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Carnage  #1</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-2.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Superior Spider-Man  #1</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-3.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">DEADPOOL #1</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-4.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Immortal Thor  #4</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-5.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Dark X-Men  #4</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-6.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Children of the Vault  #4</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-7.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Astonishing Iceman  #4</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-8.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Daredevil  #3</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-9.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                <p class="card-text">Blade  #5</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="slider-10.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">Ghost Rider #20</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </body>
 </html>

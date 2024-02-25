@@ -310,4 +310,16 @@ main .container-2 .food-menu {
   height: 210px;
   width: 190px;
   background-color: aqua;
-}/*# sourceMappingURL=style.css.map */
+}
+
+
+
+@media(min-width:1200px){
+  body{
+      max-width: 1920px;
+      margin: auto;
+  }
+}
+
+
+/*# sourceMappingURL=style.css.map */
