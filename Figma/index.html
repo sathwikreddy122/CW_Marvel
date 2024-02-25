@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    border: 1px solid gray;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+  }
+  
+  .spacer {
+    flex-grow: 1;
+  }
+  
+  .login-signup {
+    margin-right: 20px;
+  }
+  
+  .btn {
     
+    background-color:#333;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 0px;
+    border: 1px solid gray;
+  }
+  
+  .btn:hover {
+    background-color:#333;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscriber-info {
+    padding: 20px 20px;
+    border: 1px solid gray;
+    margin-right: 20px;
+  }
+  
+  .search-icon {
+    padding: 15px 20px;
+    border: 1px solid gray;
+    font-size: 24px;
+  }
+  .container {
+   
+    text-align: center;
+    background-color:#333;
+}
+.item {
+  text-align: center;
+  margin-left: 10px;
+ 
+ 
+    display: inline-block;
+    color:white;
+    margin: 5px 30px; /* Adjust margin as needed */
+}
+</style>
+<body>
+
+<nav class="navbar">
+  <div class="navbar-left">
+    <div class="logo">IN</div>
+    <div class="spacer"></div>
+    <div class="login-signup">
+      <button class="btn">LOG IN</button>
+      <button class="btn">| JOIN</button>
+    </div>
+  </div>
+  <div class="logo">
+<img src="logo.jpeg" alt="" height="80px" width="150px">
+    </div>
+  <div class="navbar-right">
+    <div class="subscriber-info">Marvel Unlimited Subscriber</div>
+    
+    <div class="search-icon">🔍</div>
+  </div>
+</nav>
+<div class="container">
+  <div class="item">NEWS</div>
+  <div class="item">COMICS</div>
+  <div class="item">CHARACTERS</div>
+  <div class="item">MOVIES</div>
+  <div class="item">TV SHOWS</div>
+  <div class="item">GAMES</div>
+  <div class="item">VIDEOS</div>
+  <div class="item">MORE</div>
+</div>
+
 </body>
 </html>
