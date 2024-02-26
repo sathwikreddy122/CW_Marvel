@@ -67,7 +67,7 @@ Frontend: HTML, CSS , Bootstrap
 ## About the Project
       Welcome to the Figma Design Exploration project! This initiative is focused on crafting visually appealing and user-friendly design solutions using Figma, a powerful collaborative design tool. Our goal is to experiment with various design concepts, refine user interfaces, and foster creativity within the design community.The techstack that was used was purely front-end based and limited to HTML, CSS, Sass and Figma.
 
-   Here is a link that will take you to the website:-
+   Here is a link that will take you to the website:- [https://65dc775b24fc2aaa6f409878--fluffy-fudge-800d09.netlify.app/]
 ## Features
 - **Interactive Prototypes:** View interactive prototypes to experience the flow and functionality.
 - **Style Guide:** Access a comprehensive style guide for consistent design elements.
