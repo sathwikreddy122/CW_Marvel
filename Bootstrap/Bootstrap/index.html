@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marvel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <div class="logo">IN</div>
+      <div class="spacer"></div>
+      <div class="login-signup">
+        <button class="btn">LOG IN</button>
+        <button class="btn">| JOIN</button>
+      </div>
+    </div>
+    <div class="logo">
+      <img src="logo.jpeg" alt="" height="80px" width="150px">
+    </div>
+    <div class="navbar-right">
+      <div class="subscriber-info">Marvel Unlimited Subscriber</div>
+
+      <div class="search-icon">🔍</div>
+    </div>
+  </nav>
+  <div class="nav-container">
+    <div class="item">NEWS</div>
+    <div class="item">COMICS</div>
+    <div class="item">CHARACTERS</div>
+    <div class="item">MOVIES</div>
+    <div class="item">TV SHOWS</div>
+    <div class="item">GAMES</div>
+    <div class="item">VIDEOS</div>
+    <div class="item">MORE</div>
+  </div>
+  <!-- Carousel Sathwik -->
+  <div class="images-container">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1800">
+          <img src="https://cdn.marvel.com/content/2x/cld7010_comp_wta_v0051.1024_r.jpg"
+            class="d-block w-100 carousel-img" alt="Deadpool">
+          <div class="text">
+            <h1>DEADPOOL AND WOLVERINE TEASER</h1>
+            <p>Watch DeadPool and Wolworean teaser now!</p>
+            <button>WATCH NOW</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1800">
+          <img src="https://cdn.marvel.com/content/1x/msm2_reveal_heroes_4k_legal_2024.jpg"
+            class="d-block w-100 carousel-img" alt="SpiderMan">
+          <div class="text">
+            <h1>WHAT IS BLACK SUIT (PETER PARKER)?</h1>
+            <p>Read on for everything you need to know about Peter Parker's Black Suit playing 'Marvel's Spider-Man 2!'
+            </p>
+            <button>READ MORE</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1800">
+          <img src="https://cdn.marvel.com/content/1x/nthrasher2024001_cover.jpg" class="d-block w-100 carousel-img"
+            alt="Deadpool">
+          <div class="text">
+            <h1>DETHIS WEEK'S NEW COMICS</h1>
+            <p>Return to Spider-Verse, join the X_Men at the end of the Krakoan Era, swing across the Ultimate with
+              Spider-Man, and more in this week comics!</p>
+            <button>READ MORE</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1800">
+          <img src="https://cdn.marvel.com/content/1x/soc0000102_lunar_new_year_dragon_gfx_1x1.jpg"
+            class="d-block w-100 carousel-img" alt="Deadpool">
+          <div class="text">
+            <h1>HAPPY LUNAR NEW YEAR!</h1>
+            <p>Celebrate Lunar New Year 2024 with Lockheed, Fin Fang Foom, Grogg and more Marvel dragons for a
+              spectacular Year of the Dragon!</p>
+            <button>MEET THE DRAGONS</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1800">
+          <img
+            src="https://img.hulu.com/user/v3/artwork/41c5abe9-cbe0-4c10-8aa6-c8286593b1b9?base_image_bucket_name=image_manager&base_image=80f8ba51-dc25-4762-ba50-01b59c96cf6c&size=2560x1440&format=jpeg"
+            class="d-block w-100 carousel-img" alt="Deadpool">
+          <div class="text">
+            <h1>STREAM THE 5-EPISODE EVENTS NOW!</h1>
+            <button>STREAMON HULU</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="text-2" >
+    <div class="links" >
+      <a href="">Deadpool And Wolverine Teaser</a>
+      <a href="">Marvel's Spider Man-2 Explained</a>
+      <a href="">This Week's New Comics</a>
+      <a href="">Year Of The Dragons</a>
+      <a href="">Echo Now Streaming</a>
+    </div>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="upper-container">
+      <div class="content">
+        <img src="mulogo_lob_log_eye_01_1.png" alt="">
+        <p>Available Now</p>
+        <h1>NEW ON MARVEL UNLIMITED</h1>
+        <p>Read these plus 30,000+ digital comics for $9.99 a month!</p>
+        <button>Get Marvel Unlimited</button>
+      </div>
+      <div class="image">
+        <img src="upper-container-img.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="scrolling-wrapper">
+          <div class="card">
+            <img src="slider-1.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Carnage #1</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-2.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Superior Spider-Man #1</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-3.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">DEADPOOL #1</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-4.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Immortal Thor #4</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-5.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Dark X-Men #4</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-6.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Children of the Vault #4</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-7.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Astonishing Iceman #4</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-8.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Daredevil #3</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-9.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Blade #5</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-10.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">Ghost Rider #20</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- adarsh-section -->
+  <div class="container-fluid">
+    <div class="container-sm">
+      <h3>THE LATEST</h3>
+
+      <div>
+        <img src="https://cdn.marvel.com/content/1x/edgesv2024001_card.jpg" alt="">
+        <h6><b>COMICS</b></h6>
+        <h5><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+      </div>
+      <hr>
+      <div>
+        <img src="https://cdn.marvel.com/content/1x/deadpool_1_stegman_variant_card.jpg" alt="">
+        <h6><b>COMICS</b></h6>
+        <h5><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+      </div>
+      <hr>
+      <div>
+        <img src="https://cdn.marvel.com/content/1x/x-men_34_cover_card.jpg" alt="">
+        <h6><b>COMICS</b></h6>
+        <h5><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+      </div>
+      <hr>
+      <div>
+        <img
+          src="https://cdn.marvel.com/content/1x/dice-awards-2024-marvels-spider-man-2-wins-6-awards-article-card.jpg"
+          alt="">
+        <h6><b>COMICS</b></h6>
+        <h5><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+      </div>
+      <hr>
+      <div>
+        <img src="https://cdn.marvel.com/content/1x/scarlet_witch_and_quicksilver_1_cover_card.jpg" alt="">
+        <h6><b>COMICS</b></h6>
+        <h5><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+      </div>
+      <hr>
+      <div>
+        <img src="https://cdn.marvel.com/content/1x/deadpool_and_wolverine_wwiii_cover_card.jpg" alt="">
+        <h6><b>COMICS</b></h6>
+        <h5><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+      </div>
+      <hr>
+      <div>
+        <img src="https://cdn.marvel.com/content/1x/fantastic_four_21_blood_hunt_cover_card.jpg" alt="">
+        <h6><b>COMICS</b></h6>
+        <h5><a href="">February 21's New Marvel Comics: The Full List</a></h5>
+      </div>
+      <hr>
+      <button class="hexagon-button "> Load More</button>
+    </div>
+
+
+    <div class="container">
+
+      <div class="newsletter">
+        <h3>THE HYPE BOX</h3>
+        <P>Can't-miss news and updates from across the Marvel Universe!</P>
+      </div>
+
+      <div>
+        <div class="card mb-3" style="max-width: 300px; max-height: auto; border: 0px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://cdn.marvel.com/content/1x/16x9_1_1.jpg" alt="" style="width: 100%; height: auto;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h6 class="card-title" style="color: rgb(98, 95, 95);">MOVIES</h6>
+                <h6 class="card-text"><a href="" style="color: black; text-decoration: none;">First
+                    'Deadpool & Wolverien' Teaser Debuts During The Big Game</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 300px; max-height: auto; border: 0px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://cdn.marvel.com/content/1x/night_thrasher_1_cover_card.jpg" alt=""
+                style="width: 100%; height: auto;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h6 class="card-title" style="color: rgb(98, 95, 95);">COMICS</h6>
+                <h6 class="card-text"><a href="" style="color: black; text-decoration: none;">February
+                    14's New Marvel Comics: The Full List</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 300px; max-height: auto; border: 0px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://cdn.marvel.com/content/1x/16x9xmen.jpeg" alt="" style="width: 100%; height: auto;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h6 class="card-title" style="color: rgb(98, 95, 95);">TV SHOWS</h6>
+                <h6 class="card-text"><a href="" style="color: black; text-decoration: none;">Marvel
+                    Animation Releases first Trailer for 'X-Men'97'</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 300px; max-height: auto; border: 0px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://cdn.marvel.com/content/1x/lunar-new-year-marvel-dragons-article-card.jpg" alt=""
+                style="width: 100%; height: auto;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h6 class="card-title" style="color: rgb(98, 95, 95);">COMICS</h6>
+                <h6 class="card-text"><a href="" style="color: black; text-decoration: none;">Meet the
+                    Dragons of the Marvel Universe</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 300px; max-height: auto; border: 0px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://cdn.marvel.com/content/1x/mcu_timeline.png" alt="" style="width: 100%; height: auto;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h6 class="card-title" style="color: rgb(98, 95, 95);">MOVIES</h6>
+                <h6 class="card-text"><a href="" style="color: black; text-decoration: none;">New MCU
+                    Timelines Arrive on Disney+</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- adarsh-section -->
+
+
+
+  
+
+  <div class="container-2">
+    <div class="upper-container">
+      <div class="content">
+        <p>ON SALE 2/21</p>
+        <h1>NEW COMICS THIS WEEK</h1>
+        <p>Check out the newest Marvel comics coming out this week!</p>
+        <button>Release Calender</button>
+      </div>
+      <div class="image">
+        <img style="width: 100%;" src="upper-container-img-2.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="scrolling-wrapper" data-bs-spy="scroll" data-bs-root-margin="0px 0px -40%"
+          data-bs-smooth-scroll="true" tabindex="0" style="margin-top: 40%;">
+          <div class="card">
+            <img src="slider-1.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Carnage #1</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-2.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Superior Spider-Man #1</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-3.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">DEADPOOL #1</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-4.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Immortal Thor #4</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-5.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Dark X-Men #4</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-6.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Children of the Vault #4</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-7.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Astonishing Iceman #4</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-8.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Daredevil #3</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-9.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <p class="card-text">Blade #5</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="slider-10.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body">Ghost Rider #20</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="footerabove"  style="margin-top: 20%;">
+    <div>
+      <img src="./marvel_4.jpg" alt="img">
+    </div>
+    <div>
+      <p>MARVEL INSIDER</p>
+      <h2>Watch, Earn, Redeem!​</h2>
+      <button>Join Now</button>
+      <p>Get rewarded for doing what you already do as a fan.​</p>
+      <p>Terms and Conditions Apply.</p>
+    </div>
+  </div>
+
+  <!--footer-->
+
+  <footer class="footer">
+    <div class="footer-col1" id="col1">
+      <img src="marvel_footer_1.png" alt="m">
+    </div>
+    <div class="footer-col2" id="col2">
+      <div>
+        <ul>
+          <li><a href="#">ABOUT MARVEL</a></li>
+          <li><a href="#">HELP/FAQS</a></li>
+          <li><a href="#">CAREERS</a></li>
+          <li><a href="#">INTERNSHIPS</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">ADVERTISING</a></li>
+          <li><a href="#">DISNEY+</a></li>
+          <li><a href="#">MARVELHQ.COM</a></li>
+          <li><a href="#">REDEEM DIGITAL COMIC</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-col3" id="col3">
+      <div>
+        <div>
+          <img src="marvel_2.png" alt="">
+        </div>
+        <div>
+          <h4 class="h4" style=" margin-bottom: 0px;">MARVEL INSIDER</h4>
+          <p>Get Rewarded for Being a Marvel Fan</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <img src="marvel_3.png" alt="">
+        </div>
+        <div>
+          <h4 class="h4" style=" margin-bottom: 0px;">MARVEL UNLIMITED</h4>
+          <p>Acess Over 30,000+ Digital Comics</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-col4" id="col4">
+      <div>
+        <h4 class="h4">FOLLOW MARVEL</h4>
+      </div>
+      <div>
+        <div><i class="fa-brands fa-square-facebook" style="color: #737785;"></i></div>
+        <div><i class="fa-brands fa-x-twitter" style="color: #737785;"></i></div>
+        <div><i class="fa-brands fa-square-instagram" style="color: #737785;"></i></div>
+        <div><i class="fa-brands fa-tumblr" style="color: #737785;"></i></div>
+        <div><i class="fa-brands fa-youtube" style="color: #737785;"></i></div>
+        <div><i class="fa-brands fa-square-snapchat" style="color: #737785;"></i></div>
+        <div><i class="fa-brands fa-pinterest" style="color: #737785;"></i></div>
+      </div>
+    </div>
+  </footer>
+  <div class="lastfooter">
+    <span>Terms of Use</span>
+    <span>Privacy Policy</span>
+    <span>Addendum to the Global Privacy Policy</span>
+    <span>Interest-Based Ads</span>
+    <span>License Agreement</span>
+    <span>&copy; 2024 MARVEL</span>
+  </div>
+  <!-- foote -->
+
+  <!-- testing -->
+  <!-- <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col footer-col1">
+                <img src="./footer/marvel_footer_1.png" alt="Marvel">
+            </div>
+            <div class="footer-col footer-col2">
+                <div>
+                    <h4>About Marvel</h4>
+                    <ul>
+                        <li><a href="#">HELP/FAQS</a></li>
+                        <li><a href="#">CAREERS</a></li>
+                        <li><a href="#">INTERNSHIPS</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">ADVERTISING</a></li>
+                        <li><a href="#">DISNEY+</a></li>
+                        <li><a href="#">MARVELHQ.COM</a></li>
+                        <li><a href="#">REDEEM DIGITAL COMIC</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-col footer-col3">
+                <div>
+                    <img src="./footer/marvel_2.png" alt="Marvel Insider">
+                    <p>Get Rewarded for Being a Marvel Fan</p>
+                </div>
+                <div>
+                    <img src="./footer/marvel_3.png" alt="Marvel Unlimited">
+                    <p>Acess Over 30,000+ Digital Comics</p>
+                </div>
+            </div>
+            <div class="footer-col footer-col4">
+                <div>
+                    <h4>FOLLOW MARVEL</h4>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tumblr"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-snapchat"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer> -->
+  <!-- testing -->
+</body>
+
+</html>
