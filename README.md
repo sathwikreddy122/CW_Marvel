@@ -48,6 +48,14 @@ To use the project, follow these steps:
 Browse through comics by selecting the comics section.
 Explore character profiles by clicking on specific characters.
 Access related media content such as movies, TV shows, or merchandise through the provided links.
+# output:
+<img width="923" alt="Screenshot 2024-02-26 172706" src="https://github.com/sathwikreddy122/CW_Marvel/assets/154861374/2d283d68-c566-4a2e-bebc-f6c11ec012c6">
+
+## Footer:
+      The footer section of our Marvel website provides users with quick access to important links and information.
+# output:
+   <img width="929" alt="Screenshot 2024-02-26 172954" src="https://github.com/sathwikreddy122/CW_Marvel/assets/154861374/6f6509b5-2874-415a-aa3d-30ce4b157d80">
+
 ## Credentials
 Provide user credentials for accessing authenticated pages if applicable.
 ## APIs Used
