@@ -78,6 +78,11 @@ Frontend: HTML, CSS , Bootstrap
 
 ## Project Type
 Front-end
+
+## Deployed App
+- Frontend: 
+-Netlify:- https://65dc775b24fc2aaa6f409878--fluffy-fudge-800d09.netlify.app/
+
 ## Directory Structure
 cw_marvel/
 ├─ Figma/
