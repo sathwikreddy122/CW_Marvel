@@ -12,7 +12,7 @@ Front-end
 
 ## Deployed App
 - Frontend: 
-
+-Netlify:- https://clever-alpaca-8b5e93.netlify.app
 
 ## Directory Structure
 cw_marvel/
